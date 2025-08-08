@@ -1,5 +1,7 @@
 function tarefa1() {
-    console.log("Executando tarefa 1...");
+    setTimeout(() => {
+      console.log("Executando tarefa 1...");
+    }, 2000); // Simula uma operação demorada
   }
   
   function tarefa2() {
